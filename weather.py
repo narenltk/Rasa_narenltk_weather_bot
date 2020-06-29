@@ -1,7 +1,7 @@
 import requests
 
 def Weather(city):
-    api_ = "http://api.openweathermap.org/data/2.5/weather?appid=acf5bed35524c8f8c44b21162250cf93&q="
+    api_ = "http://api.openweathermap.org/data/2.5/weather?appid=create you own API for and enter here&q="
 
     url_ = api_ + 'city'
     json_data = requests.get(url_).json()
@@ -9,7 +9,7 @@ def Weather(city):
 
     return format_add
 
-# api_ = "http://api.openweathermap.org/data/2.5/weather?appid=acf5bed35524c8f8c44b21162250cf93&q="
+# api_ = "http://api.openweathermap.org/data/2.5/weather?appid=create you own API for and enter here&q="
 #
 # city = input('City Name :')
 
